@@ -1,0 +1,173 @@
+.angcle1{
+    width: 115px;
+    height: 150px;
+    display: inline;
+    float: left;
+}
+
+.angcle2{
+    float: left;
+    margin-top: 25px;
+    color: white;  
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.panah{
+    display: inline;
+    float: left;
+    margin-top: 17px;
+    width: 50px;
+}
+:hover {
+    color: #07c41d;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inria sans', sans-serif;
+    background-color: #1C6758;
+}
+
+.baratas {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: white;
+}
+.kolom {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    line-height: 15px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #3D8361;
+    z-index: 1;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boxorder {
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: none; 
+    /* background: #184A40; */
+    overflow-y: scroll ;
+
+}
+
+.kalimat1{
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #184A40;
+    }
+
+.boxorder::-webkit-scrollbar{
+    display: none;
+}
+
+.kolom2 {
+    background: none;
+    width: 400px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu2 {
+    float: left;
+}
+
+.deskripsi{
+    width: 270px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+
+.isi{
+    width: 270px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: -50px;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+
+.order{
+    border: none;
+    width: 80px;
+    height: 25px;
+    margin-top: 130px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: #D9D9D9;
+    border-radius: 10px; 
+    float: right;
+}
+
+.boxbawah{
+    width: 350px;
+    display: flex;
+    height: 78px;
+    margin: auto;
+    background-color: #3D8361;
+    }
+    
+.boxdalam{
+    border: none;
+    width: 215px;
+    display: flex;
+    height: 21px;
+    margin: auto;
+    background: #D9D9D9;
+    
+    }
+    
+.status1{
+    border: none;
+    width: 169px;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: none;
+    color: #000000;    
+}

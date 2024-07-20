@@ -1,0 +1,614 @@
+:root{
+    --main-color : #1C6758;
+    --second-color : #3D8361;
+    --body-color: --main-color;
+
+    --main-font: 'inria sans', sans-serif;
+    --second-font: 'Sallim', sans-serif;
+}
+
+body{
+    background-color: var(--main-color);
+    font-family: var(--main-font);
+    position: relative;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    background: #3D8361;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+}
+
+.container .text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.box1{
+width: 262px;
+height: 35px;
+margin: auto;
+background: #D9D9D9;
+border-radius: 10px;
+}
+.box2{
+width: 262px;
+height: 35px;
+margin: auto;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.menu-item3{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    width: 208px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.menulink3{
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item4{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    width: 208px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;   
+}
+
+/*halaman login sebagai*/
+.container1{
+/*    border: 1px solid black;*/
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 30px;
+}
+.angcle1{
+    width: 115px;
+    height: 150px;
+    display: inline;
+}
+.loginsebagai{
+
+width: 277px;
+height: 34px;
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.box3{
+width: 262px;
+height: 35px;
+margin: auto;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.menu4{
+    list-style:none;
+    text-decoration: none;
+}
+.menu-item5{
+
+    display: flex;
+    color: black;
+}
+.box4{
+width: 262px;
+height: 35px;
+margin: auto;
+background: #D9D9D9;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.menu5{
+    list-style:none;
+    text-decoration: none;
+
+}
+.menu-item6{
+
+    display: flex;
+    color: black;
+
+}
+.kembali {
+    background-color: salmon;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.kembali:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+/*login sebagai user*/
+.container2{
+/*    border: 1px solid black;*/
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 30px;
+}
+
+.user{   
+height: 24px;
+margin-top: 45px;
+text-align: right;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 19px;
+margin-right: 20px;
+
+color: #FFFFFF;
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.logouser{
+
+    height: 28px;
+}
+
+.logopw{
+    margin-top: 10px;
+    height: 28px;
+}
+
+.input1{
+
+    width: 262px;
+    height: 35px;
+    border: none;
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+.input2{
+    width: 262px;
+    height: 35px;
+    border: none;
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+
+.submit1{
+border: none;
+margin-left: 30%;
+margin-top: 10px;
+margin-bottom: 20px;
+width: 69px;
+height: 27px;
+border-radius: 5px;
+cursor: pointer;
+background: #FFE08C;
+}
+
+/*halaman utama user*/
+.container3{
+/*    border: 1px solid black;*/
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 30px;
+}
+.halamanutama{
+width: 268px;
+height: 24px;
+margin-top: -7%;
+margin-left: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.halamanorder{
+width: 115px;
+height: 150px;
+display: inline;
+}
+
+.profiluser{
+width: 38px;
+
+float: right;
+margin-top: -4%;
+margin-right: 20px;
+height: 38px;
+}
+
+.kalimat1{
+width: 268px;
+height: 24px;
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.kamar{
+width: 137px;
+height: 124px;
+margin: auto;
+margin-bottom: 10px;
+display: block;
+}
+
+.kamar1box{
+width: 179px;
+height: 30px;
+margin: auto;
+margin-bottom: 10px;
+display: block;
+border: none;
+cursor: pointer;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+
+.wc1{
+width: 137px;
+height: 135px;
+margin: auto;
+margin-bottom: 10px;
+display: block;
+}
+
+.wcbox1{
+width: 179px;
+height: 30px;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+display: block;
+border: none;
+cursor: pointer;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.boxbawah{
+width: 360px;
+display: flex;
+height: 79px;
+margin: auto;
+background-color: #3D8361;
+}
+
+.boxdalam{
+border: none;
+width: 215px;
+display: flex;
+height: 21px;
+margin: auto;
+background: #D9D9D9;
+
+}
+
+.status1{
+    border: none;
+    width: 169px;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: none;
+    color: #000000;
+    
+}
+
+/*halaman profil user*/
+.container4{
+/*    border: 1px solid black;*/
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 30px;
+}
+
+.panah{
+    padding: 10px;
+    float: left;
+    width: 56px;
+    height: 30px;
+    margin-top: 30px;
+}
+.judulhalamanprofil{
+    width: 268px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.profiluser1{
+width: 121px;
+height: 129px;
+margin: auto;
+display: block;
+}
+.container4 a{
+    display: block;
+}
+.editprofil{
+width: 268px;
+height: 24px;
+margin: auto;
+margin-top: 10px;
+text-decoration: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.history{
+width: 268px;
+height: 24px;
+text-decoration: none;
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.tentangkami{
+width: 268px;
+height: 24px;
+text-decoration: none;
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.boxsignout{
+
+width: 82px;
+height: 27px;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+display: flex;
+margin-bottom: 10px;
+background: #FFE08C;
+}
+
+.signout{
+margin: auto;
+width: 51px;
+height: 15px;
+text-align: center;
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+border: none;
+}
+
+/*register sebagai user*/
+.container5{
+/*    border: 1px solid black;*/
+    width: 50%;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 30px;
+}
+.container5 p{
+    text-align: left;
+    margin-left: 20%;
+    display: inline;
+    margin-right: 40px;
+}
+.input3{
+width: 180px;
+height: 32px;
+margin-left: 6.2%;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.email{
+
+width: 114px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+
+color: #EEF2E6;
+}
+
+.input4{
+
+width: 180px;
+height: 32px;
+margin-left: 3% ;
+background: #D9D9D9;
+border-radius: 10px;
+}
+.pwreg{
+width: 114px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+
+color: #EEF2E6;
+}
+.pwreg1{
+width: 114px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 19px;
+
+color: #EEF2E6;
+
+}
+.input5{
+width: 180px;
+height: 32px;
+margin-left: -4%;
+background: #D9D9D9;
+border-radius: 10px;
+}
+.flname{
+width: 114px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 19px;
+
+color: #EEF2E6;
+
+}
+.input6{
+width: 180px;
+height: 32px;
+margin-left: 2.7%;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.notelp{
+    
+width: 114px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+
+color: #EEF2E6;
+
+}
+
+.input7{
+width: 180px;
+height: 32px;
+margin-left: 4.6%;
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.register{
+border: none;
+width: 310px;
+height: 35px;
+margin-top: 20vh;
+margin-left: 25%;
+text-align: center;
+cursor: pointer;
+background: #FFE08C;
+border-radius: 10px;
+}
